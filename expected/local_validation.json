@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "task_budget_records": 35560,
+  "partial_expectations": 177800,
+  "anchor_summary_cells": 60,
+  "relation_summary_cells": 3,
+  "partial_summary_cells": 60,
+  "synthetic_not_empirical": true,
+  "full_archive_not_distributed": true
+}

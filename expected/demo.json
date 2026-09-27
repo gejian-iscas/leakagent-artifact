@@ -1,0 +1,1 @@
+{"anchors": [3,3,3], "additional_known_documents": [2,1,0], "repeat_known_documents": [1,0,1], "pairwise_disjoint_link": [1,1,0], "all_novel_with_known": [0,1,0], "probabilities": [[0,0.6666666666666666,1,1],[0,0.3333333333333333,0.6666666666666666,1],[0,0,0,0]]}

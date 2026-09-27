@@ -1,0 +1,14 @@
+[
+  {
+    "policy": "synthetic", "user": "demo-user", "seed": 0,
+    "history": [
+      {"id": "h1", "position": 0, "events": [{"query": "q1", "documents": ["A", "B"]}]},
+      {"id": "h2", "position": 1, "events": [{"query": "q2", "documents": ["C"]}]}
+    ],
+    "future": [
+      {"id": "f1", "position": 2, "events": [{"query": "q1", "documents": ["A"]}, {"query": "q3", "documents": ["A", "B", "C"]}]},
+      {"id": "f2", "position": 3, "events": [{"query": "q4", "documents": ["B", "D"]}]},
+      {"id": "f3", "position": 4, "events": [{"query": "q2", "documents": ["C"]}]}
+    ]
+  }
+]
