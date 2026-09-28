@@ -4,7 +4,8 @@ Analysis code and aggregate results accompanying the paper. The code measures cr
 
 ## Requirements
 
-Python 3.9 or later. No additional dependencies.
+Python 3.9 or later. The core analysis has no additional dependencies.
+Service experiments and figure generation use [optional dependencies](experiments/requirements.txt).
 
 ## Quick start
 
@@ -21,6 +22,7 @@ These commands validate the analysis, run the synthetic example, and generate th
 - `analyze.py`: document-linkage and disclosure analysis.
 - `examples/`: synthetic traces and analysis configurations.
 - `data/`: aggregate experimental results.
-- `scripts/`: archive import and table generation.
+- `scripts/`: archive import, table generation, and latest experiment figures.
+- `experiments/`: fixed-knowledge analysis, encrypted object-service replay, rotation, and padding. See [experiment instructions](experiments/README.md).
 
 See [VALIDATION.md](VALIDATION.md) for validation details. Original per-user traces are not included.

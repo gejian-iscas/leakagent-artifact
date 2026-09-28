@@ -1,0 +1,5 @@
+numpy
+cryptography
+pyarrow
+pandas
+matplotlib
